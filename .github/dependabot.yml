@@ -1,0 +1,8 @@
+version: 2
+updates:
+  - package-ecosystem: "swift"
+    directory: "/"
+    # We don't need automatic updates because this is only for manual verification.
+    # We use the longest interval since this field is required.
+    schedule:
+      interval: "yearly"
